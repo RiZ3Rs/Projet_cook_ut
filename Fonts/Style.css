@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.login-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.login-content {
+    width: 100%;
+}
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+*
+{
+    font-family: "Montserrat",Arial;
+}
+.home-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    display: flex;
+    background-image: url("../WE4A/img/FondBas.png");
+    margin-top: 500px;
+    justify-content: space-between;
+    background-color: #b13b53;
+}
+
+.home-aside {
+    width: 100px;
+    background-color: #1D2242;
+}
+
+.home-main {
+    flex: 1 1 auto;
+    background-color:#C9576E;
+}
+
+.boutons-container {
+    /*border: 1px solid blue;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.boutons-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    padding-left: 0;
+}
+.boutons-list li {
+    padding: 0 10px;
+}
+.btn {
+    display: block;
+    color: #b13b53;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #222;
+}
+
+.btn2{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.btn_footer{
+    margin-left: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+
+
+.btn_footer:hover{
+    background-color: #1D2242;
+}
+
+.header-container {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.profile-container {
+    flex: 1 1 auto;
+    /*background: pink;*/
+}
+.infos-container {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.infos-content {
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+
+.texte {
+    padding-left: 10px
+}
+
+
+body
+{
+    margin: 0;
+    /*background-image: url("#");*/
+}
+
+.label-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label-form span {
+    font-weight: bold;
+}
+
+.label-form input, .label-form select {
+    width: 200px;
+}
+
+.password-form {
+    display: block;
+    text-align: right;
+}
+
+.borderimg{
+    width: 100%;
+}
+
+.poulpy{
+    width: 10%;
+}
+
+.retour{
+    display: flex;
+    height: 100%;
+    padding: 20px;
+}
+
+#accueil_recherches {
+    width: 100%;
+    max-width: 400px;
+}
+
+.ajout_article{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.article_form{
+    display : flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.content{
+    padding: 10px;
+}
+
+
+
+
+.boutons_valider {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 10px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.boutons_valider:active,
+.boutons_valider:hover {
+  outline: 0;
+}
+
+.boutons_valider span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.boutons_valider:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .boutons_valider {
+    font-size: 15px;
+    min-width: 196px;
+    margin-top: 20px;
+  }
+}
+
+
+textarea,input
+{
+    font-family: Phantomsans, sans-serif;
+    border: 1.5px solid;;
+    border-radius: 10px;
+    background-color:rgb(5, 6, 45) ;
+    color: white;
+    font-size: 95%;
+}

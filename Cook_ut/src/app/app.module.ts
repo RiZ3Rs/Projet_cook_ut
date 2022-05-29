@@ -7,6 +7,7 @@ import { ConnectionComponent } from './connection/connection.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FindServicesComponent } from './find-services/find-services.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FindServicesComponent } from './find-services/find-services.component';
     RegisterComponent,
     ConnectionComponent,
     NavbarComponent,
-    FindServicesComponent
+    FindServicesComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,

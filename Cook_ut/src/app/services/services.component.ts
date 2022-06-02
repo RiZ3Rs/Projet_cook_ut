@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
 import{services} from '../models/services.model';
 
 @Component({
@@ -8,8 +9,14 @@ import{services} from '../models/services.model';
 })
 export class ServicesComponent implements OnInit {
   @Input() services!: services;
-  constructor() { }
+  @Input() srv_index! : number;
+  constructor(private router: Router) { }
   ngOnInit(): void {
+    
   }
+
+  readMore(){
+    this.router.navigate(['/', 'products', this.srv_index]);
+    }
 
 }

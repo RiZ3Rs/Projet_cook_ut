@@ -21,6 +21,7 @@ export class FindServicesComponent implements OnInit {
     this.FindServicesArray.push(new services("Cuisine repas 8","Je cuisine chez vous les repas que vous voulez et que vous souhaitez selon vos envies. Il suffit de me donner les plats afin que je puisse mettre en place les recettes.","Soulyvan","29/05/2022","../../assets/img/fond1.jpg","Belfort"))
     this.FindServicesArray.push(new services("Cuisine repas 9","Je cuisine chez vous les repas que vous voulez et que vous souhaitez selon vos envies. Il suffit de me donner les plats afin que je puisse mettre en place les recettes.","Soulyvan","29/05/2022","../../assets/img/fond1.jpg","Belfort"))
     this.FindServicesArray.push(new services("Cuisine repas 10","Je cuisine chez vous les repas que vous voulez et que vous souhaitez selon vos envies. Il suffit de me donner les plats afin que je puisse mettre en place les recettes.","Soulyvan","29/05/2022","../../assets/img/fond1.jpg","Belfort"))
+    this.FindServicesArray.push(new services("Je vends mes fesses","Globalement tout est dans le titre","Carlo Italiano","30/05/2022","../../assets/img/fond1.jpg","Belfort"))
 
   }
 

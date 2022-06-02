@@ -1,5 +1,5 @@
 
   <section>
-    <app-services *ngFor="let productVar of FindServicesArray" [services]="productVar"></app-services>
+    <app-services *ngFor="let productVar of FindServicesArray; let i = index" [services]="productVar" [srv_index]="i+1"></app-services>
   </section>
 

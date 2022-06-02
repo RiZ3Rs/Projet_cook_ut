@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FindServicesComponent } from './find-services/find-services.component';
 import { ServicesComponent } from './services/services.component';
+import { ServicesfullComponent } from './servicesfull/servicesfull.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ServicesComponent } from './services/services.component';
     ConnectionComponent,
     NavbarComponent,
     FindServicesComponent,
-    ServicesComponent
+    ServicesComponent,
+    ServicesfullComponent
   ],
   imports: [
     BrowserModule,
